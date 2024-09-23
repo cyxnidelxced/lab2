@@ -139,7 +139,7 @@ p {
     opacity: 1;
   
     @media (prefers-reduced-motion: no-preference) {
-      animation: fade-in 10s ease-out infinite;
+      animation: fade-in 10s ease-out alternate infinite;
       animation-composition: replace;
   
       &:hover {
